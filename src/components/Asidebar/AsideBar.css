@@ -1,0 +1,138 @@
+/* Container setup */
+.side-nav-container {
+  display: flex;
+  min-height: 100vh;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar */
+.side-nav {
+  background-color: #f6f9fe;
+  color: rgb(112, 112, 112);
+  padding: 1rem;
+  padding-top: 1rem;
+  transition: width 0.3s ease-in-out;
+  overflow: hidden;
+  position: relative;
+}
+
+.side-nav.open {
+  width: 240px;
+}
+
+.side-nav.collapsed {
+  width: 70px;
+}
+
+.toggle-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  padding-left: 0.5rem;
+  color: rgb(49, 132, 104);
+}
+.care-text{
+    color: #1f2937;
+}
+/* Menu styling */
+.general-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.general-menu p{
+    padding: 10px;
+}
+
+.general-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.general-menu-item:hover {
+  color: #2a2f36;
+  font-weight: 500;
+}
+
+.tools-menu {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px;
+}
+.tools-menu p{
+    padding: 10px;
+}
+
+.tools-menu-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 2px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tools-menu-item:hover {
+    color: #2a2f36;
+  font-weight: 500;
+}
+.icon {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.label {
+  font-size: 1rem;
+  white-space: nowrap;
+}
+.tools-menu-item:last-child {
+  margin-top: 100px;
+}
+/* Hide the toggle icon on larger screens */
+.toggle-icon {
+  display: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+
+@media (max-width: 600px) {
+  .toggle-icon {
+    display: block;
+  }
+}
+
+
+
+/* Main content */
+.main-content {
+  flex: 1;
+  background-color:white;
+  padding: 2rem;
+}
+
+.main-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.main-description {
+  margin-top: 1rem;
+  color: #4b5563;
+  font-size: 1rem;
+}
