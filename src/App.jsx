@@ -4,7 +4,9 @@ import AsideBar from './components/Asidebar/AsideBar'
 function App() {
   return (
     <>
-     <AsideBar/>
+    <div>
+       <AsideBar/>
+    </div>
     </>
   )
 }
