@@ -1,0 +1,89 @@
+.calender-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+.calender-main{
+    width: 500px;
+    font-size: 16px;
+}
+.calender-header div span{
+    font-weight: 500;
+}
+.left-arrow{
+    padding-right: 15px;
+    cursor:pointer;
+}
+.right-arrow{
+    cursor: pointer;
+}
+.calender-card-main{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    padding-top: 20px;
+}
+.calender-data-card{
+   width: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   font-size: 14px;
+   border-radius: 5px;
+   padding: 8px 5px;
+   border: 1px solid black;
+}
+
+.calender-data-card span:nth-child(2) {
+  font-size: 1.5rem; /* or any size you prefer */
+  font-weight: bold;
+}
+.Appointments{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-top: 26px;
+}
+.Appointments .dentist{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.Appointments .physio{
+    width:270px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.app-icon{
+    float: right;
+    padding-right: 5px;
+}
+.Avator-icon{
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    background: rgb(68, 102, 148);
+}
+.right-header{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.app-title{
+    font-weight: 500;
+}

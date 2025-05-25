@@ -1,0 +1,26 @@
+.schedule-main{
+    width: 500px;
+}
+.schedule-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+.schedule-section-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 18px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.schedule-emoji{
+    float: right;
+    padding: 2px 10px;
+}
+ .card-title{
+ font-weight: 500;
+ font-size: 16px;
+}
