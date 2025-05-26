@@ -20,7 +20,7 @@ const AsideBar = () => {
   ]
 
   return (
-    <div className="side-nav-container">
+    <aside className="side-nav-container">
       <div className={`side-nav ${isOpen ? "open" : "collapsed"}`}>
         <Menu  className="toggle-icon" onClick={toggleSidebar} />
         {isOpen && <h1 className="logo">Health<span className="care-text">care.</span></h1>}
@@ -50,7 +50,7 @@ const AsideBar = () => {
           This is your main content area. Resize the window to see the responsive sidebar.
         </p>
       </div> */}
-    </div>
+    </aside>
   );
 };
 

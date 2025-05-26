@@ -1,9 +1,9 @@
 /* Container setup */
 .side-nav-container {
   display: flex;
-  min-height: 100vh;
-  border-radius: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
 }
 
 /* Sidebar */
@@ -15,6 +15,8 @@
   transition: width 0.3s ease-in-out;
   overflow: hidden;
   position: relative;
+    border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
 }
 
 .side-nav.open {
@@ -46,17 +48,17 @@
 /* Menu styling */
 .general-menu {
   list-style: none;
-  padding: 0;
+  padding: 0px;
   margin: 0;
 }
 .general-menu p{
-    padding: 10px;
+     padding: 0px 0px 0px 40px;
 }
 
 .general-menu-item {
   display: flex;
   align-items: center;
-  padding: 10px;
+  padding: 8px 8px 8px 46px;
   border-radius: 8px;
   margin-bottom: 2px;
   cursor: pointer;
@@ -71,16 +73,16 @@
 .tools-menu {
   list-style: none;
   padding: 0;
-  margin-top: 50px;
+  margin-top: 32px;
 }
 .tools-menu p{
-    padding: 10px;
+     padding: 0px 0px 0px 40px;
 }
 
 .tools-menu-item {
   display: flex;
   align-items: center;
-  padding: 10px;
+   padding: 8px 8px 8px 46px;
   border-radius: 8px;
   margin-bottom: 2px;
   cursor: pointer;

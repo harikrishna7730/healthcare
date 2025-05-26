@@ -1,19 +1,23 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-.App {
-  padding: 2px;
+.App{
+  padding: 0;
   margin: 0;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
 }
-body {
-  padding: 5px;
+body{
+ padding: 6px;
 }
 .App {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  justify-content: space-between;
+}
+.section-1{
+   border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
 }
 .section-3 {
   border: 1px solid black;
@@ -28,3 +32,9 @@ body {
   flex-direction: column;
   gap: 3vw;
 }
+/* .section-3{
+  padding: 25px 30px;
+  background: #f6faff;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+} */

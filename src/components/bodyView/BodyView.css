@@ -20,4 +20,5 @@
 .dashboard_left_body_div img {
   width: 250px;
   height: 420px;
+  mix-blend-mode: multiply;
 }

@@ -7,7 +7,7 @@ const CalenderView = () => {
      <div className='calender-main'>
       <div>
          <div className='right-header'>
-            <div><img src={person_avatar} className="Avator-icon" alt=""  width={20}/></div>
+            <div><img src={person_avatar} className="Avator-icon avator-img" alt=""   width={24}/></div>
             <div><Plus  className='Avator-icon'/></div>
             </div>
       </div>
@@ -35,7 +35,7 @@ const CalenderView = () => {
                <span>27</span>
                <span>12:00</span>
                <span>----</span>
-               <span>--</span>
+               <span>----</span>
            </div>
             <div className='calender-data-card'>
                <span>Tue</span>
@@ -68,12 +68,12 @@ const CalenderView = () => {
         </div>
         <div className='Appointments'>
              <div className='dentist'>
-                <span className='app-title'>Dentist <span className='app-icon'> 😬 </span></span>
+                <span id='app-title' >Dentist <span className='app-icon'> 😬 </span></span>
                 <span>09:00-11:00</span>
                 <span>Dr.Cameron williamson</span>
              </div>
              <div className='physio'>
-                <span className='app-title'>Physiotherapy Appointment <span className='app-icon'> 💪 </span></span>
+                <span id='app-title'>Physiotherapy Appointment <span className='app-icon'> 💪 </span></span>
                 <span>11:00-01:00</span>
                 <span>Dr.williamson</span>
              </div>
