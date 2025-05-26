@@ -1,6 +1,7 @@
 import { ChevronsLeft,ChevronsRight ,Plus  } from 'lucide-react'
 import "./CalenderView.css"
 import person_avatar from "../../assets/boy.png"
+import Teeth from "../../assets/molar-.png"
 const CalenderView = () => {
   return (
      <>
@@ -12,7 +13,7 @@ const CalenderView = () => {
             </div>
       </div>
         <div className='calender-header'>
-          <div><span>October 2021</span></div>
+          <div><span className='month'>October 2021</span></div>
           <div><span><ChevronsLeft className='left-arrow' /></span><span><ChevronsRight  className='right-arrow'/></span></div>
         </div>
         <div className='calender-card-main'>
@@ -68,7 +69,7 @@ const CalenderView = () => {
         </div>
         <div className='Appointments'>
              <div className='dentist'>
-                <span id='app-title' >Dentist <span className='app-icon'> 😬 </span></span>
+                <span id='app-title' >Dentist <span className='app-icon'><img src={Teeth} alt="teeth" width={15} /></span></span>
                 <span>09:00-11:00</span>
                 <span>Dr.Cameron williamson</span>
              </div>
