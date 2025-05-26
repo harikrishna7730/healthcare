@@ -1,0 +1,42 @@
+.dashboard_left_content_box_container{
+    width: 175px;
+}
+.dashboard_left_content_box{
+    /* border: 1px solid black; */
+    padding: 14px;
+    background-color: #f6f9fe;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    height: 90px;
+}
+.dashboard_left_content_box_top{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    height: 38px;
+}
+.dashboard_left_content_box_top div img{
+    padding: 5px;
+}
+.dashboard_left_content_box_top div span{
+   font-size: 20px;
+   font-weight: 500;
+
+}
+.progress-bar {
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.progress-fill {
+  background-color: #4caf50;
+  transition: width 0.3s ease;
+}
+
+.dashboard_left_content_box_btm p{
+    font-size: 12px;
+    color: rgb(67, 68, 68);
+}

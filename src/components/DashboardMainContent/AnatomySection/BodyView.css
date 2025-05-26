@@ -1,0 +1,68 @@
+.dashboard_left_side_container {
+  padding-top: 40px;
+}
+.dashboard_left_side_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15vw;
+}
+.dashboard_left_side_top div select{
+  border: none;
+}
+.dashboard_left_content_container {
+  display: flex;
+  position: absolute;
+  width: 100px;
+}
+.dashboard_left_body_icon{
+  position: relative;
+ left: 270px;
+ z-index: 1;
+ padding: 10px;
+}
+.dashboard_left_content_body_container{
+    background-color: rgba(244, 242, 242, 0.308);
+}
+.dashboard_left_body_div {
+  position: absolute;
+  height: 370px;
+  overflow: hidden;
+}
+.dashboard_left_body_content1_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: purple;
+  color: white;
+  position: relative;
+  width: 170px;
+   border-radius: 10px;
+}
+.dashboard_left_body_content1_div div {
+  padding: 5px;
+}
+.dashboard_left_body_content2_div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  position: relative;
+  width: 170px;
+   border-radius: 10px;
+}
+.dashboard_left_body_div img {
+  width: 340px;
+  height: 320px;
+  padding: 10px;
+  mix-blend-mode: multiply;
+}
+.dashboard_left_body_search{
+  position: absolute;
+  z-index: 0;
+}
+.Health_card{
+  float:right;
+}

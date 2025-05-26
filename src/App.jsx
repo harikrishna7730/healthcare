@@ -3,7 +3,7 @@ import AsideBar from "./components/Asidebar/AsideBar";
 import CalenderView from "./components/DashboardMainContent/CalenderView/CalenderView";
 import Navbar from "./components/DashboardMainContent/Navbar/Navbar";
 import UpcomingSchedule from "./components/DashboardMainContent/UpcomingSchedule/UpcomingSchedule";
-import BodyView from "./components/bodyView/BodyView"
+import BodyView from "./components/DashboardMainContent/AnatomySection/BodyView"
 
 function App() {
   return (
