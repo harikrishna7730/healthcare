@@ -1,25 +1,30 @@
-*{
-    font-family: "Roboto", sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
-.App{
+.App {
   padding: 2px;
   margin: 0;
   border-top-left-radius: 10px;
- border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-body{
- padding: 5px;
+body {
+  padding: 5px;
 }
-.App{
+.App {
   display: flex;
   flex-direction: row;
   gap: 2rem;
 }
-.section-3{
+.section-3 {
   border: 1px solid black;
   padding: 20px;
   background: rgb(124, 174, 219);
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
   height: 100vh;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3vw;
 }
