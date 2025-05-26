@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Search ,Bell } from 'lucide-react';
 import"./Navbar.css"
 const Navbar = () => {
