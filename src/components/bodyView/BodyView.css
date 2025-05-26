@@ -1,0 +1,24 @@
+.dashboard_left_side_container {
+  width: 200px;
+}
+.dashboard_left_side_top {
+  display: flex;
+  gap: 15vw;
+}
+.dashboard_left_content_container {
+  display: flex;
+  width: 100px;
+}
+.dashboard_left_content_body_container{
+    background-color: rgba(244, 242, 242, 0.308);
+}
+.dashboard_left_body_div {
+  height: 370px;
+  overflow: hidden;
+}
+
+.dashboard_left_body_div img {
+  width: 250px;
+  height: 420px;
+  mix-blend-mode: multiply;
+}

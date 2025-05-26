@@ -1,5 +1,5 @@
-*{
-    font-family: "Roboto", sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 .App{
   padding: 8px;
@@ -25,4 +25,4 @@
   background: #f6faff;
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
-}
+} 
