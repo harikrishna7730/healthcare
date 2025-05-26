@@ -1,9 +1,9 @@
 import "./App.css";
 import AsideBar from "./components/Asidebar/AsideBar";
-import BodyView from "./components/bodyView/BodyView";
-import CalenderView from "./components/CalenderView/CalenderView";
-import Navbar from "./components/Navbar/Navbar";
-import UpcomingSchedule from "./components/UpcomingSchedule/UpcomingSchedule";
+import CalenderView from "./components/DashboardMainContent/CalenderView/CalenderView";
+import Navbar from "./components/DashboardMainContent/Navbar/Navbar";
+import UpcomingSchedule from "./components/DashboardMainContent/UpcomingSchedule/UpcomingSchedule";
+import BodyView from "./components/bodyView/BodyView"
 
 function App() {
   return (

@@ -2,39 +2,27 @@
   font-family: "Roboto", sans-serif;
 }
 .App{
-  padding: 0;
+  padding: 8px;
   margin: 0;
-  border-top-left-radius: 20px;
- border-bottom-left-radius: 20px;
+  /* border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px; */
+  border-radius: 25px;
+  background-color: white;
 }
-body{
- padding: 6px;
-}
-.App {
+
+
+.App{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .section-1{
-   border-top-left-radius: 20px;
- border-bottom-left-radius: 20px;
+   border-top-left-radius: 25px;
+ border-bottom-left-radius: 25px;
 }
-.section-3 {
-  border: 1px solid black;
-  padding: 20px;
-  background: rgb(124, 174, 219);
-  border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px;
-  height: 100vh;
-}
-.section-2 {
-  display: flex;
-  flex-direction: column;
-  gap: 3vw;
-}
-/* .section-3{
-  padding: 25px 30px;
+.section-3{
+  padding: 16px 30px;
   background: #f6faff;
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
-} */
+} 

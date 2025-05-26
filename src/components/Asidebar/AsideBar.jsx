@@ -44,12 +44,6 @@ const AsideBar = () => {
           ))}
         </ul>
       </div>
-      {/* <div className="main-content">
-        <h2 className="main-title">Dashboard</h2>
-        <p className="main-description">
-          This is your main content area. Resize the window to see the responsive sidebar.
-        </p>
-      </div> */}
     </aside>
   );
 };

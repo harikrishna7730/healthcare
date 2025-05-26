@@ -3,6 +3,7 @@ import "./BodyView.css";
 import humanBody from "../../assets/humanBody.avif";
 import { ZoomIn } from "lucide-react";
 
+
 const BodyView = () => {
   return (
     <div className="dashboard_left_side_container">

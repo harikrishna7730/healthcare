@@ -1,4 +1,4 @@
-/* Container setup */
+
 .side-nav-container {
   display: flex;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -6,7 +6,7 @@
  border-bottom-left-radius: 20px;
 }
 
-/* Sidebar */
+
 .side-nav {
   background-color: #f6f9fe;
   color: rgb(112, 112, 112);
@@ -39,13 +39,13 @@
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 2rem;
-  padding-left: 0.5rem;
-  color: rgb(49, 132, 104);
+  padding-left: 42px;
+  color: #4cc4cf;
 }
 .care-text{
-    color: #1f2937;
+    color: #201855;
 }
-/* Menu styling */
+
 .general-menu {
   list-style: none;
   padding: 0px;
@@ -73,7 +73,7 @@
 .tools-menu {
   list-style: none;
   padding: 0;
-  margin-top: 32px;
+  margin-top: 30px;
 }
 .tools-menu p{
      padding: 0px 0px 0px 40px;
@@ -103,38 +103,15 @@
   white-space: nowrap;
 }
 .tools-menu-item:last-child {
-  margin-top: 100px;
+  margin-top: 90px;
 }
-/* Hide the toggle icon on larger screens */
+
 .toggle-icon {
   display: none;
   cursor: pointer;
   margin: 1rem;
 }
 
-@media (max-width: 600px) {
-  .toggle-icon {
-    display: block;
-  }
-}
 
 
 
-/* Main content */
-.main-content {
-  flex: 1;
-  background-color:white;
-  padding: 2rem;
-}
-
-.main-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #1f2937;
-}
-
-.main-description {
-  margin-top: 1rem;
-  color: #4b5563;
-  font-size: 1rem;
-}

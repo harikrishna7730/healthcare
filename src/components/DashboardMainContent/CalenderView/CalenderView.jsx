@@ -1,6 +1,7 @@
 import { ChevronsLeft,ChevronsRight ,Plus  } from 'lucide-react'
 import "./CalenderView.css"
-import person_avatar from "../../assets/boy.png"
+import person_avatar from "../../../assets/boy.png"
+import Teeth from "../../../assets/molar-.png"
 const CalenderView = () => {
   return (
      <>
@@ -12,7 +13,7 @@ const CalenderView = () => {
             </div>
       </div>
         <div className='calender-header'>
-          <div><span>October 2021</span></div>
+          <div><span className='month'>October 2021</span></div>
           <div><span><ChevronsLeft className='left-arrow' /></span><span><ChevronsRight  className='right-arrow'/></span></div>
         </div>
         <div className='calender-card-main'>
@@ -68,7 +69,7 @@ const CalenderView = () => {
         </div>
         <div className='Appointments'>
              <div className='dentist'>
-                <span id='app-title' >Dentist <span className='app-icon'> 😬 </span></span>
+                <span id='app-title' >Dentist <span className='app-icon'><img src={Teeth} alt="teeth" width={15} /></span></span>
                 <span>09:00-11:00</span>
                 <span>Dr.Cameron williamson</span>
              </div>
@@ -83,59 +84,4 @@ const CalenderView = () => {
   )
 }
 
-export default CalenderView
-
-// import { ChevronsLeft, ChevronsRight } from 'lucide-react';
-// import './CalenderView.css';
-
-// const CalenderView = () => {
-//   const weekData = [
-//     { day: 'Mon', date: 25, times: ['09:00', '11:00'] },
-//     { day: 'Tue', date: 26, times: ['13:00'] },
-//     { day: 'Wed', date: 27, times: [] },
-//     { day: 'Thu', date: 28, times: ['15:00'] },
-//     { day: 'Fri', date: 29, times: ['09:00', '11:00', '13:00'] },
-//     { day: 'Sat', date: 30, times: [] },
-//     { day: 'Sun', date: 31, times: ['11:00'] },
-//   ];
-
-//   return (
-//     <div className="calender-main">
-//       <div className="calender-header">
-//         <div><span>October 2021</span></div>
-//         <div>
-//           <ChevronsLeft className="left-arrow" />
-//           <ChevronsRight className="right-arrow" />
-//         </div>
-//       </div>
-
-//       <div className="calender-grid">
-//         {weekData.map((item, idx) => (
-//           <div key={idx} className="calender-data-card">
-//             <span className="day-label">{item.day}</span>
-//             <span className="date-number">{item.date}</span>
-//             {item.times.map((time, i) => (
-//               <span key={i} className="time-slot">{time}</span>
-//             ))}
-//           </div>
-//         ))}
-//       </div>
-
-//       <div className="Appointments">
-//         <div className="appointment-card dentist">
-//           <span className="title">Dentist <span> 😬 </span></span>
-//           <span className="time-range">09:00 - 11:00</span>
-//           <span className="doctor">Dr. Cameron Williamson</span>
-//         </div>
-//         <div className="appointment-card physio">
-//           <span className="title">Physiotherapy Appointment <span> 💪 </span></span>
-//           <span className="time-range">11:00 - 13:00</span>
-//           <span className="doctor">Dr. Williamson</span>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default CalenderView;
-
+export default CalenderView;
