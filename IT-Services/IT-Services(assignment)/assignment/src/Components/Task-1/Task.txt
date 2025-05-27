@@ -1,0 +1,22 @@
+1.	Explain the difference between useEffect, useLayoutEffect, and useInsertionEffect. When would you use each?
+Answer: UseEffect acts like asynchronous, used for side effects for fetching , and handling APIs calls, 
+useLayoutEffect acts like synchronous , it is mostly used  for Dom Manipulation . because it will paints before rendering , like dimensions, scrolling etc.
+useInsertionEffect : I don’t know much ,because I didn’t used it any where.
+
+2.	What are higher-order components (HOCs)? How do they differ from custom hooks?
+Answer: HOC: Higher Order Component it is a function that carries a component as a prop and renders it with additional logics  like in  Authentication.
+Custom Hook: it is  also a function with same structure but name should be start with “use” that the component can be used in and calls any where in the project.
+Key Difference: hoc is passed as a prop , but where as custom hook will simply called where ever it needed.
+
+3.	Describe how context works in React. What are the potential drawbacks of using React Context for large-scale state management?
+Answer:  Context is used for the global state management for mid scale applications. To pass the state with in the wrapper context provider .
+Drawbacks: no a good practise for the large scale application in companies. So context will renders the all component when a single state is changed.
+
+4.	What is React’s reconciliation process? How does React determine what to update in the DOM?
+Answer:  Reconciliation process will of updating the necessary state or a component rendering with out disturbing the other components in Dom , we know that react provides Virtual Dom so it is has a faster updating of Dom compared to Real Dom.
+
+5.	How would you prevent unnecessary re-renders in a functional component?
+1)	Using  the useMemo() to prevent unnecessary re-rendering of component
+2)	Using useCallback().
+3)	using React.Memo().
+4)	using Key prop in while maping.

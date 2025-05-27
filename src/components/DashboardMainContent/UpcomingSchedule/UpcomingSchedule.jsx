@@ -22,7 +22,7 @@ const UpcomingSchedule = () => {
          <p className='day'>On Saturday</p>
          <div className='schedule-card'>
             <div className='schedule-section-card'>
-                <div> <span id='card-title'>Cardiologist<span  className='schedule-emoji'> 🙎‍♂️ </span></span> </div>
+                <div> <span id='card-title'>Cardiologist<span  className='schedule-emoji'> 💓 </span></span> </div>
                 <div><span>12:00 AM</span></div>
             </div>
              <div className='schedule-section-card'>

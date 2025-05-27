@@ -1,10 +1,10 @@
-import React from "react";
 import "./BodyView.css";
-import humanBody from "../../../assets/humanBody.avif";
+import humanBody from "../../../assets/body-img.webp";
 import { ZoomIn } from "lucide-react";
 import leg from "../../../assets/leg.png"
 import Heart from "../../../assets/heart.png"
 import HealthCards from "../HealthStatusCards/HealthCards";
+import ActivityFeed from "../ActivityFeed/ActivityFeed";
 const BodyView = () => {
   return (
     <>
@@ -20,7 +20,7 @@ const BodyView = () => {
           </select>
         </div>
       </div>
-
+    
       <div className="dashboard_left_content_container">
         <div className="dashboard_left_content_body_container">
           <div className="dashboard_left_body_search">
@@ -39,10 +39,13 @@ const BodyView = () => {
           </div>
         </div>
       </div>
-    </div>
       <div className="Health_card">
         <HealthCards/>
       </div>
+      <div className="Acitivty_Feed">
+        <ActivityFeed/>
+      </div>
+    </div>
       </>
   );
 };

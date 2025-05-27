@@ -1,0 +1,39 @@
+
+.Activity_feed_header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.sub-title {
+  font-size: 13px;
+  color: rgb(102, 102, 102);
+  padding: 5px;
+}
+
+.Activity_Feed_main {
+  display: flex;
+  background-color: #f6f9fe;
+  flex-direction: column;
+  padding: 6px;
+  width: 100%;
+  max-width: 510px;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.03);
+}
+
+.Activity_feed_dates {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: center;
+}

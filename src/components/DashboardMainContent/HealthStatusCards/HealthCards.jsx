@@ -2,7 +2,7 @@
 import React from 'react';
 import "./HealthCards.css"
 import healthData from '../../../data/HealthData';
-
+import { ArrowRight } from 'lucide-react';
 const HealthCards = () => {
   return (
     <div className="dashboard_left_content_box_container">
@@ -16,13 +16,24 @@ const HealthCards = () => {
             <p>Date: {item.date}</p>
             <div className="progress-bar">
               <div
-                className="progress-fill"
-                style={{ width: `${item.progress}%` }}
-              ></div>
+    className="progress-fill"
+    style={{
+      width: `${item.progress}%`,
+      backgroundColor:
+        item.title === "Lungs"
+          ? "brown"
+          : item.title === "Teeth"
+          ? "green"
+          : item.title === "Bone"
+          ? "orange"
+          : "#2196f3",
+    }}
+  ></div>
             </div>
           </div>
         </div>
       ))}
+      <div><span className='details-arrow'>Details <ArrowRight size={16}/></span></div>
     </div>
   );
 };

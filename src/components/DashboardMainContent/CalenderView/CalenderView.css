@@ -37,6 +37,7 @@
    font-size: 14px;
    border-radius: 10px;
    padding: 8px 5px;
+   cursor: pointer;
    /* border: 1px solid black; */
 }
 .calender-data-card:hover{
@@ -66,8 +67,16 @@
     padding: 12px 22px;
       background: #dde2f9;
     border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Appointments .dentist:hover{
+  background-color: #3734a9;
+  color: white;
+  cursor: pointer;
 }
 .Appointments .physio{
+    transition: background-color 0.3s ease, color 0.3s ease;
     width:270px;
     display: flex;
     flex-direction: column;
@@ -75,6 +84,11 @@
     gap: 3px;
     padding: 12px 22px;
     border-radius: 15px;
+}
+.Appointments .physio:hover{
+  background-color: #3734a9;
+  color: white;
+  cursor: pointer;
 }
 .app-icon{
     float: right;
